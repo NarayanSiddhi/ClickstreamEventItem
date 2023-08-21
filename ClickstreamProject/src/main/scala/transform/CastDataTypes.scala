@@ -6,6 +6,7 @@ import service.FileReader
 
 object CastDataTypes {
   def castDataTypes(df1:DataFrame,df2:DataFrame):(DataFrame,DataFrame)={
+//df.column.Datatype
 
     val df1cast = df1.withColumn("event_timestamp",
       to_timestamp(col("event_timestamp"), "MM/dd/yyyy HH:mm"))
