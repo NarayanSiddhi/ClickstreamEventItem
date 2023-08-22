@@ -17,11 +17,5 @@ import java.sql.{Connection, DriverManager}
 
         }
 
-        //        private val url = "jdbc:mysql://localhost:3306/clickstream_data_events"
-//        private val properties = new java.util.Properties()
-//        properties.setProperty("user", "root")
-//        properties.setProperty("password", "Aradhya@123")
-//        def getConnection(): Connection = {
-//            DriverManager.getConnection(url, properties)
-//        }
+
 }
